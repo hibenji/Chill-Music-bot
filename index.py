@@ -321,7 +321,7 @@ class Music(commands.Cog):
                 song = Song(source)
 
                 await ctx.voice_state.songs.put(song)
-                await ctx.send('Enqueued {}'.format(str(search)))
+                await ctx.send('Chill Music has started.')
     
         print(f"Added {search} to queue, requested by {ctx.author.name}")
 
